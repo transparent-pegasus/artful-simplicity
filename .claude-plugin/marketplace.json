@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "artful-simplicity",
+  "description": "Marketplace for the artful-simplicity plugin",
+  "owner": {
+    "name": "transparent-pegasus",
+    "url": "https://github.com/transparent-pegasus"
+  },
+  "plugins": [
+    {
+      "name": "artful-simplicity",
+      "description": "Audit code, tests, and prose for artful simplicity; use for readability, design, refactoring, over-engineering, and redundancy reviews.",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "transparent-pegasus"
+      },
+      "category": "productivity"
+    }
+  ]
+}

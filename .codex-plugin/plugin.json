@@ -1,0 +1,37 @@
+{
+  "name": "artful-simplicity",
+  "version": "0.1.0",
+  "description": "Audit code, tests, and prose for artful simplicity; use for readability, design, refactoring, over-engineering, and redundancy reviews.",
+  "author": {
+    "name": "transparent-pegasus",
+    "url": "https://github.com/transparent-pegasus"
+  },
+  "homepage": "https://github.com/transparent-pegasus/artful-simplicity",
+  "repository": "https://github.com/transparent-pegasus/artful-simplicity",
+  "keywords": [
+    "simplicity",
+    "readability",
+    "refactoring",
+    "code-review",
+    "over-engineering",
+    "redundancy",
+    "documentation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Artful Simplicity",
+    "shortDescription": "Simplicity audit for code, tests, and prose",
+    "longDescription": "A unit is simple when a cold reader can name its one idea, predict its contents from its name, and keep nothing unrelated in mind. Reports each finding as unit, what the cold reader cannot do, and one of delete, fold, move, or rewrite, and recommends the safer direction rather than the smaller change.",
+    "developerName": "transparent-pegasus",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Audit this file for artful simplicity.",
+      "Which units here can a cold reader not name in one idea?",
+      "Review these tests for redundancy and over-engineering."
+    ],
+    "websiteURL": "https://github.com/transparent-pegasus/artful-simplicity"
+  }
+}

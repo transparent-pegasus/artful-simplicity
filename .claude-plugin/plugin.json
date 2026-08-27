@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "artful-simplicity",
+  "version": "0.1.0",
+  "description": "Audit code, tests, and prose for artful simplicity; use for readability, design, refactoring, over-engineering, and redundancy reviews.",
+  "author": {
+    "name": "transparent-pegasus",
+    "url": "https://github.com/transparent-pegasus"
+  },
+  "homepage": "https://github.com/transparent-pegasus/artful-simplicity",
+  "repository": "https://github.com/transparent-pegasus/artful-simplicity",
+  "keywords": [
+    "simplicity",
+    "readability",
+    "refactoring",
+    "code-review",
+    "over-engineering",
+    "redundancy",
+    "documentation"
+  ]
+}

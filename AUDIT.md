@@ -1,0 +1,1 @@
+As a highly abstract and poetic skill that still functions as a practical decision rule, model the underlying structure of the subject in multiple dimensions, identify the variables that serve as the dominant axes, and evaluate it accordingly.
