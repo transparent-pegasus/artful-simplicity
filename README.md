@@ -26,6 +26,12 @@ agent plugin marketplace add https://github.com/transparent-pegasus/artful-simpl
 
 Then install **Artful Simplicity** from Cursor's plugin marketplace. Start a new agent session after installation.
 
+OpenCode:
+
+```sh
+opencode plugin -g artful-simplicity@git+https://github.com/transparent-pegasus/artful-simplicity.git
+```
+
 ## `AUDIT.md`
 
 [`AUDIT.md`](AUDIT.md) is the prompt for auditing the Artful Simplicity skill itself.
