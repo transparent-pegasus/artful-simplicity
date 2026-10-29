@@ -18,5 +18,19 @@
     "documentation"
   ],
   "type": "module",
-  "main": ".opencode-plugin/index.js"
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "skills/"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.0.32",
+    "yaml": "^2.9.1"
+  }
 }

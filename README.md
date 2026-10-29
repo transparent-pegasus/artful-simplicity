@@ -26,11 +26,27 @@ agent plugin marketplace add https://github.com/transparent-pegasus/artful-simpl
 
 Then install **Artful Simplicity** from Cursor's plugin marketplace. Start a new agent session after installation.
 
-OpenCode:
+OpenCode 2 (tested with 2.0.32):
 
 ```sh
-opencode plugin -g artful-simplicity@git+https://github.com/transparent-pegasus/artful-simplicity.git
+opencode plugin add artful-simplicity@git+https://github.com/transparent-pegasus/artful-simplicity.git
 ```
+
+Start a new OpenCode session after installation. The plugin registers the bundled
+`artful-simplicity` skill. OpenCode 1.18.29 and later V1 releases are also supported
+through the legacy plugin entrypoint.
+
+For a local checkout, run `npm install` in this repository, then add the repository
+directory to `plugins` in your project's `opencode.json`:
+
+```json
+{
+  "plugins": ["/absolute/path/to/artful-simplicity"]
+}
+```
+
+Use the directory path, as OpenCode 2 does not load individual plugin files from
+`plugins` configuration entries.
 
 ## `AUDIT.md`
 
